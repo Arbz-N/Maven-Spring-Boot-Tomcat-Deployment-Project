@@ -68,12 +68,15 @@ After build, your artifact will be available in:
     sudo vi /opt/apache-tomcat-9.0.65/webapps/manager/META-INF/context.xml
 
 
-**Comment this block:**
+**Comment out this block:**
 
     <!--
     <Valve className="org.apache.catalina.valves.RemoteAddrValve"
      allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" />
     -->
+    #by default tomcat can only be accessed by locahost if you comment this line out then
+    #it will be accessed by remote browser
+    # it is only for learning purpose
 
 **Create Short Commands**
 
