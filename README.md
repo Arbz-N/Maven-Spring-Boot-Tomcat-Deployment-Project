@@ -32,12 +32,10 @@
 
 Run the Maven lifecycle commands step by step: (go to the folder where pom.xml file is present)
 
-    mvn clean 
-    mvn compile
-    mvn test
-    mvn package
-    mvn install
-    mvn deploy
+    mvn clean     #delete the old build if any
+    mvn compile   #code compile
+    mvn test      #Tests run  
+    mvn package   #make JAR/WAR file
 
 
 After build, your artifact will be available in:
