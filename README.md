@@ -67,8 +67,8 @@ After build, your artifact will be available in:
     Edit:
     sudo vi /opt/apache-tomcat-9.0.65/webapps/manager/META-INF/context.xml
 
-
-**Comment out this block:**
+    
+    **Comment out this block:**
 
     <!--
     <Valve className="org.apache.catalina.valves.RemoteAddrValve"
